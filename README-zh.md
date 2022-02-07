@@ -1,7 +1,12 @@
-# vue-admin-template 企业客户管理系统
+# 客户画像平台
+
+## 功能
+登录成功
 
 ## 进展
-本地验证登录成功，待调试细节部署
+部署到ali服务器，调试客户查询界面
+
+## 原文档
 
 > 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
