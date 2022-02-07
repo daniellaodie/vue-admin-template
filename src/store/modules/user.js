@@ -36,6 +36,8 @@ const actions = {
       login({ username: username.trim(), password: md5(password) }).then(response => {
         const { data } = response
         commit('SET_TOKEN', data.token)
+        commit('SET_NAME', data.username)
+        commit('SET_AVATAR', 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif')
         setToken(data.token)
         resolve()
       }).catch(error => {
